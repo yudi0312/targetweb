@@ -1,0 +1,10 @@
+[
+  {
+    "id": "14f50ac8-6ae6-4511-8ab1-9042e4644b9c",
+    "name": "yud",
+    "email": "yud@gmail.com",
+    "passwordHash": "$2a$10$niQqeAv93Jr1rII/aguwiOT2x9YnKOIvFwrjyZhgik7f7DNI8LNCK",
+    "role": "customer",
+    "createdAt": "2026-05-12T18:11:18.845Z"
+  }
+]

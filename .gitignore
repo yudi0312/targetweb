@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+
+# logs
+logs/
+
+# env
+.env
+
+# vite
+frontend/dist/
+
+# backend logs
+backend/logs/
+
+# node modules
+backend/node_modules/
+frontend/node_modules/
