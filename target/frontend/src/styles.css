@@ -337,7 +337,15 @@ button {
 }
 
 .accent-orange {
-  background: linear-gradient(135deg, rgba(255, 139, 47, 0.26), rgba(18, 27, 43, 0.9));
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.26), rgba(17, 40, 80, 0.9));
+}
+
+.accent-blue {
+  background: linear-gradient(135deg, rgba(18, 27, 43, 0.9), rgba(96, 2, 203, 0.9));
+}
+
+.accent-purple {
+  background: linear-gradient(135deg, rgba(96, 2, 203, 0.9), rgba(108, 0, 0, 0.9));
 }
 
 .catalog-toolbar {
@@ -483,7 +491,7 @@ button {
   padding: 0 16px;
   color: white;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--orange), var(--cyan));
+  background: linear-gradient(135deg, var(--orange), var(--red));
   box-shadow: 0 16px 34px rgba(53, 214, 255, 0.18);
 }
 
@@ -668,7 +676,7 @@ button {
   padding: 42px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   background:
     linear-gradient(180deg, rgba(7, 11, 19, 0.28), rgba(7, 11, 19, 0.94)),
     url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80") center/cover;

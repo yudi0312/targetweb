@@ -32,7 +32,7 @@ export default function LoginPage() {
   }
 
   return (
-    <AuthShell title="Welcome back, operator." subtitle="Masuk untuk membuat request login, mengambil katalog, dan mengirim order demo.">
+    <AuthShell title="Welcome back, operator." subtitle="Masuk untuk berbelanja atau sekedar melihat-lihat.">
       <form className="auth-card" onSubmit={handleSubmit}>
         <h2>Login</h2>
         <label>

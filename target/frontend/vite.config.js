@@ -6,15 +6,10 @@ export default defineConfig({
   server: {
     port: 5173,
     host: '0.0.0.0',
-    proxy: {
-      '/products': 'http://localhost:3000',
-      '/login': 'http://localhost:3000',
-      '/register': 'http://localhost:3000',
-      '/checkout': 'http://localhost:3000',
-      '/me': 'http://localhost:3000',
-      '/activity': 'http://localhost:3000',
-      '/metrics': 'http://localhost:3000',
-      '/health': 'http://localhost:3000'
+    proxy: {'/api': {
+    target: 'http://localhost:3000',
+    rewrite: (path) => path.replace(/^\/api/, '')
+  }
     }
   }
 });

@@ -37,7 +37,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <AuthShell title="Create a test identity." subtitle="Akun tersimpan di mock JSON database agar demo SOC tetap ringan dan mudah direset.">
+    <AuthShell title="Create a test identity." subtitle="Start Fresh with ITech Shop.">
       <form className="auth-card" onSubmit={handleSubmit}>
         <h2>Register</h2>
         <label>

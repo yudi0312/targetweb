@@ -6,5 +6,13 @@
     "passwordHash": "$2a$10$niQqeAv93Jr1rII/aguwiOT2x9YnKOIvFwrjyZhgik7f7DNI8LNCK",
     "role": "customer",
     "createdAt": "2026-05-12T18:11:18.845Z"
+  },
+  {
+    "id": "016725bc-a08c-4a3b-8c20-6094730b15e1",
+    "name": "bliyudi",
+    "email": "bliyudi@gmail.com",
+    "passwordHash": "$2a$10$fpAjBnu938u4gslOfCnjYO5ModlHYjQIJ5e1sWAugsY6a3MndwjmK",
+    "role": "customer",
+    "createdAt": "2026-05-13T04:25:13.888Z"
   }
 ]

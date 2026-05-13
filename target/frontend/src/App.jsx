@@ -13,17 +13,30 @@ function ProtectedRoute({ children }) {
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} />
+
+      {/* UBAH INI: tambahkan ProtectedRoute di homepage */}
+      <Route
+        path="/"
+        element={
+          <ProtectedRoute>
+            <HomePage />
+          </ProtectedRoute>
+        }
+      />
+
       <Route
         path="/checkout"
-        element={(
+        element={
           <ProtectedRoute>
             <CheckoutPage />
           </ProtectedRoute>
-        )}
+        }
       />
+
+      {/* TAMBAH INI: tangkap URL yang tidak dikenal */}
+      <Route path="*" element={<Navigate to="/login" replace />} />
     </Routes>
   );
 }

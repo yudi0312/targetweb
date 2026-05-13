@@ -28,8 +28,8 @@ export default function Layout({ children, search, onSearchChange }) {
     <div className="app-shell">
       <aside className="sidebar">
         <Link className="brand-row sidebar-brand" to="/">
-          <div className="brand-mark">N</div>
-          <span>NexSOC</span>
+          <div className="brand-mark">IT</div>
+          <span>ITech Shop</span>
         </Link>
         <nav className="side-nav">
           <p>Pages</p>
@@ -55,11 +55,6 @@ export default function Layout({ children, search, onSearchChange }) {
             </>
           )}
         </nav>
-        <div className="soc-panel">
-          <Shield size={20} />
-          <span>Wazuh traffic target</span>
-          <small>API logs write to access.log</small>
-        </div>
       </aside>
 
       <div className="content-shell">
@@ -73,10 +68,6 @@ export default function Layout({ children, search, onSearchChange }) {
             />
           </div>
           <div className="top-actions">
-            <span className="status-pill">
-              <Activity size={15} />
-              API ready
-            </span>
             <Link className="cart-button" to="/checkout" aria-label="Open checkout cart">
               <ShoppingCart size={19} />
               <span>{count}</span>
@@ -95,12 +86,12 @@ export default function Layout({ children, search, onSearchChange }) {
         <main className="main-content">
           <div className="hero-band">
             <div>
-              <p className="eyebrow">cyberpunk hardware marketplace</p>
-              <h1>Neon-ready devices for realistic SOC traffic.</h1>
+              <p className="eyebrow">IT hardware marketplace</p>
+              <h1>ITS ALL HERE </h1>
             </div>
             <div className="hero-stats">
-              <span><Boxes size={18} /> 8 assets</span>
-              <span><Shield size={18} /> logged API</span>
+              <span><Boxes size={18} /> 8 categories</span>
+              <span><Shield size={18} /> 100% secure</span>
             </div>
           </div>
           {children}

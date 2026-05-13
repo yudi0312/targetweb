@@ -85,7 +85,7 @@ export default function CheckoutPage() {
         <form className="checkout-form" onSubmit={handleSubmit}>
           <div className="section-heading">
             <h2>Checkout</h2>
-            <span>POST /checkout</span>
+            <span>Complete your purchase</span>
           </div>
           <label>
             Full name

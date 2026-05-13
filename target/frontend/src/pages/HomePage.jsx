@@ -66,15 +66,15 @@ export default function HomePage() {
           <strong>{products.length}</strong>
           <small>products returned by API</small>
         </div>
-        <div className="summary-card">
+        <div className="summary-card accent-blue">
           <span>Inventory value</span>
           <strong>${inventoryValue.toLocaleString()}</strong>
           <small>based on filtered data</small>
         </div>
-        <div className="summary-card">
-          <span>Traffic source</span>
-          <strong>REST</strong>
-          <small>GET /products every search</small>
+        <div className="summary-card accent-purple">
+          <span>Discount</span>
+          <strong>50%</strong>
+          <small>for every $1.000 spent</small>
         </div>
       </section>
 
